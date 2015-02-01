@@ -1,11 +1,3 @@
-# Outlaw Algorithms
-Bandit Algorithms in Clojure
-
-This lib is meant to be used from other JVM languages.
-
-Here is an example how to use it from Java:
-
-```java
 import java.util.Random;
 import outlawalgos.*;
 
@@ -24,5 +16,5 @@ public class Outlaw {
 	System.exit(0);
     }
 }
-```
+
 
