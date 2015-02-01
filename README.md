@@ -25,4 +25,30 @@ public class Outlaw {
     }
 }
 ```
+Try it:
+
+Check out the code. cd into outlaw-algos.
+
+Generate uberjar, which contains all that is needed to run this standalone.
+
+```bash
+~/proj/outlaw-algos[master⚡]$ lein uberjar
+```
+```
+Compiling outlaw-algos.core
+Created /Users/stefan/proj/outlaw-algos/target/outlaw-algos-0.1.0-SNAPSHOT.jar
+Created /Users/stefan/proj/outlaw-algos/target/outlaw-algos-0.1.0-SNAPSHOT-standalone.jar
+```
+
+Compile the Java class example.
+
+```bash
+~/proj/outlaw-algos[master⚡]$ cd examples
+~/proj/outlaw-algos/examples[master⚡]$ javac -cp ../target/outlaw-algos-0.1.0-SNAPSHOT-standalone.jar Outlaw.java 
+```
+Now run it.
+
+```bash
+~/proj/outlaw-algos/examples[master⚡]$ java -cp ../target/outlaw-algos-0.1.0-SNAPSHOT-standalone.jar Outlaw 
+```
 
