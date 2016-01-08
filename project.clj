@@ -1,8 +1,8 @@
 (defproject outlaw-algos "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :description "Clojure Bandit Algorithms"
+  :url "TODO add public url after release"
+  :license {:name "LGPLv3"
+            :url "https://www.gnu.org/licenses/lgpl.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]]
   :aot [outlaw-algos.core]
   :omit-source true)
